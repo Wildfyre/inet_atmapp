@@ -1,0 +1,68 @@
+# Language transcript for the ATM client project.
+# Written by Wildfyre in 2012.
+
+# Parent hash for English.
+!ruby/symbol English:
+
+# Terminal greetings and farewells
+  !ruby/symbol terminal_greeting:           Welcome to Bank!
+  !ruby/symbol terminal_farewell:           Goodbye and thank you for using our terminal!
+  
+# Menu options
+  !ruby/symbol menu_options:                "Your options are:"
+  !ruby/symbol menu_choice_balance:         !ruby/symbol balance
+  !ruby/symbol menu_choice_deposit:         !ruby/symbol deposit
+  !ruby/symbol menu_choice_withdraw:        !ruby/symbol withdraw
+  !ruby/symbol menu_choice_language:        !ruby/symbol language
+  !ruby/symbol menu_choice_help:            !ruby/symbol help
+  !ruby/symbol menu_choice_quit:            !ruby/symbol quit
+  
+# Menu descriptions. These are are the help tooltips for the menu options.
+  !ruby/symbol menu_description_balance:    See your account balance.
+  !ruby/symbol menu_description_deposit:    Deposit funds into your account.
+  !ruby/symbol menu_description_withdraw:   Withdraw from your account.
+  !ruby/symbol menu_description_language:   Choose a language.
+  !ruby/symbol menu_description_help:       "This feature is still under developement. Please trial and error for now."
+  !ruby/symbol menu_description_quit:       Exit program.
+  
+# Verification 
+  !ruby/symbol verification_request:        "Enter your two-digit verification code. You may ommit leading zeroes:  "
+  !ruby/symbol verification_success:        Verification Successful!
+  !ruby/symbol verification_fail:           Verification failed. Exiting client!
+  
+# Login
+  !ruby/symbol login_success:               Login successful!
+  !ruby/symbol login_fail:                  User credentials not matching or invalid. Exiting client!
+  !ruby/symbol login_id_request:            "Enter your six-digit id-code. You may ommit leading zeroes:  "
+  !ruby/symbol login_pin_request:           "Enter your four-digit pincode. You may ommit leading zeroes:  "
+  
+# Requests: Balance
+  !ruby/symbol balance_request:             "Your account balance is"
+  
+# Requests: Withdraw
+  !ruby/symbol withdraw_request:            "Enter the amount you would like to withdraw: "
+  !ruby/symbol withdraw_success:            Transaction successful! You withdrew
+  !ruby/symbol withdraw_success_balance:    Your new balance is
+  !ruby/symbol withdraw_fail:               Transaction failed. Your balance could not cover the withdrawal.
+  !ruby/symbol withdraw_fail_balance:       No money has been removed from your account. your new balance is
+  
+# Requests: Deposit
+  !ruby/symbol deposit_request:             "Enter the amount you would like to deposit: "
+  !ruby/symbol deposit_success:             You deposited
+  !ruby/symbol deposit_success_balance:     Your new balance is
+  
+# Requests: Language
+  !ruby/symbol lang_menu_options:           "Your language options are: "
+  !ruby/symbol lang_request:                "Please choose language."
+  !ruby/symbol lang_success:                "Good choice!"
+  
+# Requests: Help
+  !ruby/symbol help_message:                "This feature is still under developement. Please trial and error for now."
+  
+  
+# Any other languages should be inserted after this point. 
+# I stronly suggest simply copypasteing the english one and
+# changing the strings. Please not that you will also have
+# to mosify the method that handles the change-language-menu
+# option. Regards, wf
+  

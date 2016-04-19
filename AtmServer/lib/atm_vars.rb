@@ -1,0 +1,1 @@
+$debug = true if $debug == nil
